@@ -32,6 +32,9 @@ namespace WordPressSharp.Models
         [XmlRpcMember("post_name")]
         public string Name { get; set; }
 
+        [XmlRpcMember("post_password")]
+        public string Password { get; set; }
+
         [XmlRpcMember("link")]
         public string Link { get; set; }
 
